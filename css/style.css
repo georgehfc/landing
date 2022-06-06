@@ -1,0 +1,80 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url('components/cards.css');
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  /* MARGIN DOESN'T QUITE DOES THE TRICK HERE. WHY? */
+  /* margin: 20px 0; */
+}
+
+.card h4 {
+  font-size: 1em;
+  opacity: 0.8;
+}
+
+.card p {
+  opacity: 0.5;
+}
+
+.banner p {
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+  /* TRIED TO FIX SPACING. <a> DOESN'T SEEM TO MOVE */
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  font-size: 16px;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #18cd7b;
+}

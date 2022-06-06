@@ -1,0 +1,24 @@
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(200,200,200,0.25);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 5px rgba(200,200,200,0.5);
+}
+
+.card img {
+  height: 120px;
+}
